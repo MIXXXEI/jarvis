@@ -11,7 +11,16 @@ list:
   - открой браузер
   - открой хром
   - гугл хром
-
+  
+- command:
+    action: ahk
+    exe_path: ahk/Run browser.exe
+  voice:
+    sounds:
+    - life
+  phrases:
+  - смысл жизни
+  
 - command:
     action: ahk
     exe_path: ahk/Close browser.exe
