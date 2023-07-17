@@ -12,6 +12,20 @@ list:
   - перезагрузи себя
   - выполни перезагрузку
 
+list:
+- command:
+    action: ahk
+    exe_path: ahk/reboot.exe
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - подумай хорошенько
+  - перезагрузи себя
+  - выполни перезагрузку
+
 - command:
     action: voice
   voice:
